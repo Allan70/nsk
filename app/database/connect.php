@@ -5,15 +5,15 @@ function connect()
     $host = 'localhost';
     $user = 'root';
     $pass = '';
-$db_name = 'blog';
+    $db_name = 'blog';
     try {
         $conn = new PDO(
             "mysql:
             host=" . $host . ";
             dbname=" . $db_name, // database name
             $user, // database username
-            $pass//, //database password
-        //self::$options //additional options
+            $pass, //database password
+            [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
         );
         return $conn;
     } catch (Exception $e) {

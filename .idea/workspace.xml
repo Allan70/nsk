@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nsk.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/queryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/database/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database/connect.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Script.queryBuilder.php">
@@ -83,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602444263519</updated>
-      <workItem from="1602444264843" duration="966000" />
+      <workItem from="1602444264843" duration="1914000" />
     </task>
     <servers />
   </component>
@@ -109,22 +106,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="199" key="#CLI_Interpreters/0.0.1920.1050@0.0.1920.1050" timestamp="1602444666050" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1602445237270">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1602445521673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602445237270" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1602445237270">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602445521673" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1602445521673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602445237270" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1602445237270">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602445521673" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1602445521673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602445237270" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1602445237270">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602445521673" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1602445521673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602445237270" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602445521673" />
     <state x="794" y="444" key="NewPhpFileDialog" timestamp="1602444320514">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
