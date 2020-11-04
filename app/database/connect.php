@@ -2,10 +2,11 @@
 
 function connect()
 {
-    $host = 'localhost';
-    $user = 'root';
-    $pass = '';
-    $db_name = 'blog';
+    $conf=readIni();
+    $host = $conf['DATABASE_HOST'];
+    $user = $conf['DATABASE_USER'];
+    $pass = $conf['DATABASE_PASSWORD'];
+    $db_name = $conf['DATABASE_NAME'];
     try {
         $conn = new PDO(
             "mysql:
@@ -27,4 +28,15 @@ function connect()
     {
         echo "<pre>", print_r($value, true), "</pre>";
         die();
+    }
+
+    function readIni(){
+        $document=__DIR__;
+        $root=$document.'/../../';
+        $filename=$root.'config.ini';
+        $configs=[];
+        if(file_exists($filename)){
+            $configs=parse_ini_file($filename);
+        }
+        return $configs;
     }

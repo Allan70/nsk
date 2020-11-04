@@ -24,7 +24,7 @@
 
   <div class="auth-content">
 
-    <form action="register.html" method="post">
+    <form action="app/function.php?action=register" method="post">
         <h1 class="form-title">Register</h1>
 
         <!--Error message-->

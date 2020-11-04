@@ -25,7 +25,7 @@
 
   <div class="auth-content">
 
-    <form action="login.html" method="post">
+    <form action="app/function.php?action=login" method="post">
         <h1 class="form-title">Login</h1>
 
          <!--Error message-->

@@ -70,7 +70,7 @@
         }
     }
 
-    function FindColumn($table, $parameters)
+    function findColumn($table, $parameters)
     {
         try {
             ##code here
@@ -79,7 +79,7 @@
                 if ($sql == null) {
                     $sql = $parameter . "='" . $value . "'";
                 } else {
-                    $sql .= $parameter . "='" . $value . "'";
+                    $sql .=" and ". $parameter . "='" . $value . "'";
                 }
             }
             $connection = connect();
@@ -88,8 +88,7 @@
                 $table,
                 $sql
             );
-            $statement = $connection->prepare($statement);
-            $statement->execute();
+            $statement = $connection->query($statement);
             return ['count' => $statement->rowCount(), 'result' => $statement->fetchAll(PDO::FETCH_CLASS)];
         } catch (Exception $e) {
             ##handle exceptions here
@@ -244,9 +243,7 @@
 
     $data = [
         'admin' => 1,
-        'name' => 'Abere',
-        'email' => 'aabere70@gmail.com',
+        'username' => 'Abere',
+        'email' => 'aabere700@gnmail.com',
         'password' => 'allan'
     ];
-
-    dd(save('users',$data));
