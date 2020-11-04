@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database/queryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database/queryBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +91,8 @@
       <workItem from="1602475679673" duration="940000" />
       <workItem from="1604332741790" duration="1051000" />
       <workItem from="1604421534550" duration="2715000" />
-      <workItem from="1604462372198" duration="4836000" />
+      <workItem from="1604462372198" duration="5391000" />
+      <workItem from="1604511795370" duration="616000" />
     </task>
     <servers />
   </component>

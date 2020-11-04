@@ -23,16 +23,16 @@ if(isset($_POST['login_btn']) || $_GET['action'] === 'login'){
 //register
 if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
     if(is_null($_POST['username'])){
-
+        dd('Username cannot be empty.');
     }
     if(is_null($_POST['email'])){
-
+        dd('Email cannot be empty.');
     }
     if(is_null($_POST['password'])){
-
+        dd('Password field cannot be empty.');
     }
     if(is_null($_POST['passwordConf'])){
-
+        dd('Confirm password field cannot be empty.');
     }
     $username=$_POST['username'];
     $password=$_POST['password'];
