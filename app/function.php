@@ -51,8 +51,8 @@ if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
     }
 }
 
+//create post
 if($_GET['action'] === 'create-post'){
-//    dd($_FILES);
     $title=$_POST['title'];
     $body=$_POST['body'];
     $image=$_FILES['image'];
@@ -82,6 +82,17 @@ if($_GET['action'] === 'create-post'){
     if(save('posts',$data)==1){
         dd('Post created successfully');
     }
+}
+
+// create topic
+if($_GET['action']='create-topic'){
+    $name=$_POST['title'];
+    $body=$_POST['body'];
+    $data=[
+        'name'=>$name,
+        'body'=>$body
+    ];
+    dd(save('topic',$data));
 }
 
 function redirect($path){

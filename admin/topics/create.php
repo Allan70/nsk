@@ -66,14 +66,14 @@
         <div class="content">
             <h2 class="page-title"> Add Topic </h2>
             
-            <form action="create.php" method="post">
+            <form action="../../app/function.php?action=create-topic" method="post">
                 <div>
                     <label>Name</label>
                     <input type="text" name="title" class="text-input">
                 </div>
                 <div>
                     <label>Description</label>
-                    <textarea name="body" id="body"></textarea>
+                    <textarea name="body" id="body" class="text-input"></textarea>
                 </div>
 
                 <div>
