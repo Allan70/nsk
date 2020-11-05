@@ -66,7 +66,7 @@
         <div class="content">
             <h2 class="page-title"> Add Post </h2>
             
-            <form action="../../app/function.php?action=create-post" method="post">
+            <form action="../../app/function.php?action=create-post" method="post" enctype="multipart/form-data">
                 <div>
                     <label>Title</label>
                     <input type="text" name="title" class="text-input">
@@ -101,9 +101,7 @@
         </div>
     </div>
 
-    <!--Admin Contet-->
-
-
+    <!--Admin Content-->
     </div>
 <!--Admin Page wrapper-->
 

@@ -1,6 +1,8 @@
 <?php
 include 'database/queryBuilder.php';
 
+$ROOT= '/../';
+
 
 //login
 if(isset($_POST['login_btn']) || $_GET['action'] === 'login'){
@@ -50,6 +52,7 @@ if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
 }
 
 if($_GET['action'] === 'create-post'){
+//    dd($_FILES);
     $title=$_POST['title'];
     $body=$_POST['body'];
     $image=$_FILES['image'];
@@ -64,8 +67,54 @@ if($_GET['action'] === 'create-post'){
     if(is_null($topic)){
         dd('Topic cannot be empty.');
     }
+    if(is_null($image)){
+        dd('Image cannot be empty.');
+    }
+    $image=uploadFile($image);
+    $video=uploadFile($video);
+    $data=[
+        'title'=>$title,
+        'topic'=>$topic,
+        'body'=>$body,
+        'image'=>$image,
+        'video'=>$video
+    ];
+    if(save('posts',$data)==1){
+        dd('Post created successfully');
+    }
 }
 
 function redirect($path){
     header('Location:'.$path);
+}
+
+function uploadFile($file,$filename=null,$path=null){
+    global $ROOT;
+    $ROOT=__DIR__.'/../';
+    if(is_null($path)){
+        $path=$ROOT.readIni()['UPLOADS_PATH'];
+    }
+    if(is_null($filename)){
+        $filename=$file['name'];
+    }
+    if(file_exists($path.'/'.$filename)){
+        $ext = end((explode('.',$file['name'])));
+        $filename=md5(mt_rand()).'.'.$ext;
+    }
+
+    if(!file_exists($path) && !is_dir($path)){
+        if (!mkdir($path) && !is_dir($path)) {
+            dd('Directory "%s" was not created', $path);
+        }
+    }
+
+    // upload the file
+    if(move_uploaded_file($file['tmp_name'],$path.'/'.$filename)){
+        return $path.'/'.$filename;
+    }else{
+        echo 'failed</br>';
+        echo $path.'/'.$filename;
+        echo '<br>';
+        dd($file);
+    }
 }
