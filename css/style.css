@@ -116,6 +116,18 @@ header .logo span{
     color:rgb(240, 108, 0);
 }
 
+/*Header sticky*/                                      /*<------------------Update--------------------------*/
+header.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        position: fixed;
+        top: 0;
+        width: 100%; 
+        z-index: 99999; 
+    }
+
+
 header .logo{
     float: left;
     height: inherit;
@@ -331,7 +343,7 @@ header ul li ul li .logout:hover{
 .content{
     width:90%;
     margin: 30px auto 30px;
-
+    padding-top: 67px;
 }
 
 .content .main-content{                       /*<---Main Content-->*/
