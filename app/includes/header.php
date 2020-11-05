@@ -1,4 +1,4 @@
-<header>
+<header class="sticky">
     <div class="logo">
       <h1 class="logo-text"><a href="<?php echo BASE_URL . '/index.php'?>"><span>Ni</span>sokoni</a></h1>
     </div>
