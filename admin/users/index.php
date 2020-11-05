@@ -20,7 +20,7 @@
 
 
 
-  <title>Admin Section - Manage Topics</title>
+  <title>Admin Section - Manage Users</title>
 </head>
 <body>
   <header>
@@ -34,7 +34,7 @@
       <li>
         <a href="#"><i class="fa fa-user"></i>
             Crazy Cow   
-          <i class="fa fa-chevron-down" script="font-size: .8em"></i>
+          <i class="fa fa-chevron-down" style="font-size: 0.8em"></i>
         </a>
         <ul>
           <li><a href="#" class="logout">Logout</a></li>
@@ -48,9 +48,9 @@
     <!--Left Sidebar-->
      <div class="left-sidebar">
          <ul>
-             <li><a href="../posts/index.html">Manage Posts</a></li>
-             <li><a href="../users/index.html">Manage Users</a></li>
-             <li><a href="../topics/index.html">Manage Topics</a></li>
+             <li><a href="../posts/index.php">Manage Posts</a></li>
+             <li><a href="index.php">Manage Users</a></li>
+             <li><a href="../topics/index.php">Manage Topics</a></li>
          </ul>
 
      </div>
@@ -60,27 +60,30 @@
     <!--Admin Contet-->
     <div class="Admin-content">
         <div class="button-group">
-            <a href="create.html" class="btn btn-big">Add Topic</a>
-            <a href="index.html"class="btn btn-big">Manage Topic</a>
+            <a href="create.php" class="btn btn-big">Add User</a>
+            <a href="index.php" class="btn btn-big">Manage Users</a>
         </div>
         <div class="content">
-            <h2 class="page-title"> Manage Topics</h2>
+            <h2 class="page-title"> Manage Users</h2>
             <table>
                 <thead>
                     <th>SN</th>
-                    <th>Title</th>
+                    <th>Username</th>
+                    <th>Role</th>
                     <th colspan="2">Action</th>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Politics</td>
+                        <td>Allan Abere</td>
+                        <td>Admin</td>
                         <td><a href="#" class="edit">edit</a></td>
                         <td><a href="#" class="delete">delete</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Business</td>
+                        <td>Allan Abere</td>
+                        <td>Author</td>
                         <td><a href="#" class="edit">edit</a></td>
                         <td><a href="#" class="delete">delete</a></td>
                     </tr>

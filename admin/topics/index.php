@@ -20,7 +20,7 @@
 
 
 
-  <title>Admin Section - Add Topic</title>
+  <title>Admin Section - Manage Topics</title>
 </head>
 <body>
   <header>
@@ -48,9 +48,9 @@
     <!--Left Sidebar-->
      <div class="left-sidebar">
          <ul>
-             <li><a href="../posts/index.html">Manage Posts</a></li>
-             <li><a href="../users/index.html">Manage Users</a></li>
-             <li><a href="index.html">Manage Topics</a></li>
+             <li><a href="../posts/index.php">Manage Posts</a></li>
+             <li><a href="../users/index.php">Manage Users</a></li>
+             <li><a href="index.php">Manage Topics</a></li>
          </ul>
 
      </div>
@@ -60,26 +60,33 @@
     <!--Admin Contet-->
     <div class="Admin-content">
         <div class="button-group">
-            <a href="create.html" class="btn btn-big">Add Topics</a>
-            <a href="index.html"class="btn btn-big">Manage Topics</a>
+            <a href="create.php" class="btn btn-big">Add Topic</a>
+            <a href="index.php" class="btn btn-big">Manage Topic</a>
         </div>
         <div class="content">
-            <h2 class="page-title"> Add Topic </h2>
-            
-            <form action="create.html" method="post">
-                <div>
-                    <label>Name</label>
-                    <input type="text" name="title" class="text-input">
-                </div>
-                <div>
-                    <label>Description</label>
-                    <textarea name="body" id="body"></textarea>
-                </div>
-
-                <div>
-                    <button type="submit" class="btn">Add Topic</button>
-                </div>
-            </form>
+            <h2 class="page-title"> Manage Topics</h2>
+            <table>
+                <thead>
+                    <th>SN</th>
+                    <th>Title</th>
+                    <th colspan="2">Action</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Politics</td>
+                        <td><a href="#" class="edit">edit</a></td>
+                        <td><a href="#" class="delete">delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Business</td>
+                        <td><a href="#" class="edit">edit</a></td>
+                        <td><a href="#" class="delete">delete</a></td>
+                    </tr>
+                </tbody>
+                
+            </table>
         </div>
       
     </div>
@@ -96,11 +103,9 @@
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
    
-  <!--Ckeditor-->
-  <script src="https://cdn.ckeditor.com/ckeditor5/22.0.0/classic/ckeditor.js"></script>
-
   <!-- Custom Script-->
   <script src="../../js/scripts.js"></script>
+
 
 </body>
 </html>

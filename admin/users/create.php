@@ -20,7 +20,7 @@
 
 
 
-  <title>Admin Section - Add Post</title>
+  <title>Admin Section - Add Users</title>
 </head>
 <body>
   <header>
@@ -48,9 +48,9 @@
     <!--Left Sidebar-->
      <div class="left-sidebar">
          <ul>
-             <li><a href="index.html">Manage Posts</a></li>
-             <li><a href="../users/index.html">Manage Users</a></li>
-             <li><a href="../topics/index.html">Manage Topics</a></li>
+             <li><a href="../posts/index.php">Manage Posts</a></li>
+             <li><a href="index.php">Manage Users</a></li>
+             <li><a href="../topics/">Manage Topics</a></li>
          </ul>
 
      </div>
@@ -60,42 +60,39 @@
     <!--Admin Contet-->
     <div class="Admin-content">
         <div class="button-group">
-            <a href="create.html" class="btn btn-big">Add Post</a>
-            <a href="index.html"class="btn btn-big">Manage Posts</a>
+            <a href="create.php" class="btn btn-big">Add User</a>
+            <a href="index.php" class="btn btn-big">Manage User</a>
         </div>
         <div class="content">
-            <h2 class="page-title"> Add Post </h2>
+            <h2 class="page-title"> Add User </h2>
             
-            <form action="create.html" method="post">
+            <form action="create.php" method="post">
                 <div>
-                    <label>Title</label>
-                    <input type="text" name="title" class="text-input">
+                    <label>Username</label>
+                    <input type="text" name="username" class="text-input">
                 </div>
                 <div>
-                    <label>Body</label>
-                    <textarea name="body" id="body"></textarea>
+                    <label>Email</label>
+                    <input type="text" name="email" class="text-input">
                 </div>
                 <div>
-                    <label>Image</label>
-                    <input type="file" name="image" class="text-input">
+                    <label>Password</label>
+                    <input type="text" name="password" class="text-input">
                 </div>
                 <div>
-                    <label>Video</label>
-                    <input type="file" name="video" class="text-input">
+                    <label>Password Confirmation</label>
+                    <input type="text" name="passwordConf" class="text-input">
                 </div>
                 <div>
-                    <label>Topics</label>
-                    <select name="topic" class="text-input">
-                        <option value="politics">Politics</option>
-                        <option value="business">Business</option>
-                        <option value="entertainment">Entertainment</option>
-                        <option value="life-and-style">Life and Style</option>
-                        <option value="sports">Sports</option>
-                        <option value="technology">Technology</option>
+                    <label>Role</label>
+                    <select name="role" class="text-input">
+                        <option value="admin">Admin</option>
+                        <option value="author">Author</option>>
                     </select>
                 </div>
+
                 <div>
-                    <button type="submit" class="btn">Add Post</button>
+                    <button type="submit" class="btn">Add User</button>
                 </div>
             </form>
         </div>

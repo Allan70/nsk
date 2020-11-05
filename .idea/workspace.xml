@@ -20,19 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/posts/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/posts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/topics/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/topics/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/users/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/users/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/posts/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/posts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/topics/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/topics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/users/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html/admin/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/topics/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/topics/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/topics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/topics/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/function.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +101,7 @@
       <workItem from="1604462372198" duration="5391000" />
       <workItem from="1604511795370" duration="737000" />
       <workItem from="1604513026784" duration="1486000" />
-      <workItem from="1604551730554" duration="614000" />
+      <workItem from="1604551730554" duration="2141000" />
     </task>
     <servers />
   </component>
@@ -133,6 +128,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="199" key="#CLI_Interpreters/0.0.1920.1050@0.0.1920.1050" timestamp="1602444666050" />
+    <state x="723" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604557128052">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="723" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1604557128052" />
     <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1602480960361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -49,6 +49,23 @@ if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
     }
 }
 
+if($_GET['action'] === 'create-post'){
+    $title=$_POST['title'];
+    $body=$_POST['body'];
+    $image=$_FILES['image'];
+    $video=$_FILES['video'];
+    $topic=$_POST['topic'];
+    if(is_null($title)){
+        dd('Title cannot be empty.');
+    }
+    if(is_null($body)){
+        dd('Body cannot be empty.');
+    }
+    if(is_null($topic)){
+        dd('Topic cannot be empty.');
+    }
+}
+
 function redirect($path){
     header('Location:'.$path);
 }

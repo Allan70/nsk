@@ -20,7 +20,7 @@
 
 
 
-  <title>Admin Section - Add Users</title>
+  <title>Admin Section - Add Topic</title>
 </head>
 <body>
   <header>
@@ -48,9 +48,9 @@
     <!--Left Sidebar-->
      <div class="left-sidebar">
          <ul>
-             <li><a href="../posts/index.html">Manage Posts</a></li>
-             <li><a href="index.html">Manage Users</a></li>
-             <li><a href="../topics/">Manage Topics</a></li>
+             <li><a href="../posts/index.php">Manage Posts</a></li>
+             <li><a href="../users/index.php">Manage Users</a></li>
+             <li><a href="index.php">Manage Topics</a></li>
          </ul>
 
      </div>
@@ -60,39 +60,24 @@
     <!--Admin Contet-->
     <div class="Admin-content">
         <div class="button-group">
-            <a href="create.html" class="btn btn-big">Add User</a>
-            <a href="index.html"class="btn btn-big">Manage User</a>
+            <a href="create.php" class="btn btn-big">Add Topics</a>
+            <a href="index.php" class="btn btn-big">Manage Topics</a>
         </div>
         <div class="content">
-            <h2 class="page-title"> Add User </h2>
+            <h2 class="page-title"> Add Topic </h2>
             
-            <form action="create.html" method="post">
+            <form action="create.php" method="post">
                 <div>
-                    <label>Username</label>
-                    <input type="text" name="username" class="text-input">
+                    <label>Name</label>
+                    <input type="text" name="title" class="text-input">
                 </div>
                 <div>
-                    <label>Email</label>
-                    <input type="text" name="email" class="text-input">
-                </div>
-                <div>
-                    <label>Password</label>
-                    <input type="text" name="password" class="text-input">
-                </div>
-                <div>
-                    <label>Password Confirmation</label>
-                    <input type="text" name="passwordConf" class="text-input">
-                </div>
-                <div>
-                    <label>Role</label>
-                    <select name="role" class="text-input">
-                        <option value="admin">Admin</option>
-                        <option value="author">Author</option>>
-                    </select>
+                    <label>Description</label>
+                    <textarea name="body" id="body"></textarea>
                 </div>
 
                 <div>
-                    <button type="submit" class="btn">Add User</button>
+                    <button type="submit" class="btn">Add Topic</button>
                 </div>
             </form>
         </div>
