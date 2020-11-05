@@ -310,7 +310,7 @@
         </div>
 
         <!--Section Topics-->
-        <div class="section topics">
+       <!-- <div class="section topics">
           <h2 class="section-title"> Topics</h2>
           <ul>
             <li><a href="#">Shop</a></li>
@@ -321,7 +321,7 @@
             <li><a href="#">Shorts</a></li> 
             <li><a href="#">About</a></li>
           </ul>
-        </div>
+        </div>-->
 
       </div>
     
