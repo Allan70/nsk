@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/posts/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/posts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/topics/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/topics/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/posts/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/posts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/topics/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/topics/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/users/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html/admin/users/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +104,9 @@
       <workItem from="1604332741790" duration="1051000" />
       <workItem from="1604421534550" duration="2715000" />
       <workItem from="1604462372198" duration="5391000" />
-      <workItem from="1604511795370" duration="616000" />
+      <workItem from="1604511795370" duration="737000" />
+      <workItem from="1604513026784" duration="1486000" />
+      <workItem from="1604551730554" duration="614000" />
     </task>
     <servers />
   </component>
