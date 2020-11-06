@@ -75,19 +75,7 @@
                     <th>Title</th>
                     <th colspan="2">Action</th>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Politics</td>
-                        <td><a href="#" class="edit">edit</a></td>
-                        <td><a href="#" class="delete">delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Business</td>
-                        <td><a href="#" class="edit">edit</a></td>
-                        <td><a href="#" class="delete">delete</a></td>
-                    </tr>
+                <tbody id="topics-table">
                 </tbody>
                 
             </table>

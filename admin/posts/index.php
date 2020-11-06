@@ -77,14 +77,6 @@
                     <th colspan="3">Action</th>
                 </thead>
                 <tbody id="posts_table">
-                    <tr>
-                        <td>1</td>
-                        <td>This is the first Post</td>
-                        <td>Allan Abere</td>
-                        <td><a href="#" class="edit">edit</a></td>
-                        <td><a href="#" class="delete">delete</a></td>
-                        <td><a href="#" class="publish">publish</a></td>
-                    </tr>
                 </tbody>
                 
             </table>

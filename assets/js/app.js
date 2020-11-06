@@ -2,7 +2,22 @@ let path=window.location.origin;
 
 Blog={
     list:function(){
-        RestCalls(path+'/app/function.php?action=list-blogs');
+        RestCalls(path+'/app/function.php?action=list-blogs',function(data){alert('An error occurred getting posts.')},function(data){
+            data=JSON.parse(data);
+            let rows='';
+            $.each(data,function(k,v){
+                rows+=`
+                    <tr>
+                        <td>`+v.id+`</td>
+                        <td>`+v.title+`</td>
+                        <td>`+v.author+`</td>
+                        <td><a href="#" class="edit">edit</a></td>
+                        <td><a href="#" class="delete">delete</a></td>
+                        <td><a href="#" class="publish">publish</a></td>
+                    </tr>`;
+            });
+            $('#posts_table').html(rows);
+        });
     },
     search:function(){
 
@@ -21,7 +36,21 @@ Blog={
 
 Users={
     list:function(){
-        RestCalls(path+'/app/function.php?action=list-users');
+        RestCalls(path+'/app/function.php?action=list-users',function(data){alert('An error occurred')},function(data){
+            data=JSON.parse(data);
+            let rows='';
+            $.each(data,function(k,v){
+                rows+=`
+                    <tr>
+                        <td>`+v.id+`</td>
+                        <td>`+v.username+`</td>
+                        <td>`+isAdmin(v.admin)+`</td>
+                        <td><a href="#" class="edit">edit</a></td>
+                        <td><a href="#" class="delete">delete</a></td>
+                    </tr>`;
+            });
+            $('#users-table').html(rows);
+        });
     },
     select:function(){
 
@@ -30,7 +59,22 @@ Users={
 
 Topics={
     list:function(){
-        RestCalls(path+'/app/function.php?action=list-topics');
+        RestCalls(path+'/app/function.php?action=list-topics',function(data){
+            alert('Cannot retrieve topics at this time');
+        },function(data){
+            data=JSON.parse(data);
+            let rows='';
+            $.each(data,function(k,v){
+                rows+=`
+                    <tr>
+                        <td>`+v.id+`</td>
+                        <td>`+v.name+`</td>
+                        <td><a href="#" class="edit">edit</a></td>
+                        <td><a href="#" class="delete">delete</a></td>
+                    </tr>`;
+            });
+            $('#topics-table').html(rows);
+        });
     }
 }
 function RestCalls(Myurl, error, f) {
@@ -82,4 +126,12 @@ function onError(error) {
 
 function onSuccess(msg) {
     alert(msg);
+}
+
+function isAdmin(data){
+    if(data==null){
+        return 'User';
+    }else{
+        return "Admin";
+    }
 }

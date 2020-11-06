@@ -114,7 +114,7 @@ if($_GET['action']==='list-users'){
 
 //list posts
 if($_GET['action']==='list-blogs'){
-    $blogs=All('blogs');
+    $blogs=All('posts');
     echo json_encode($blogs);
 }
 
