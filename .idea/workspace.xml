@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/session_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nsk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nsk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/topics/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/topics/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/topics/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/topics/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/queryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database/queryBuilder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +64,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="I:/PROJECTS/WORK/inuka/payroll_system" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -96,7 +107,9 @@
       <workItem from="1604462372198" duration="5391000" />
       <workItem from="1604511795370" duration="737000" />
       <workItem from="1604513026784" duration="1486000" />
-      <workItem from="1604551730554" duration="7932000" />
+      <workItem from="1604551730554" duration="8705000" />
+      <workItem from="1604651969152" duration="75000" />
+      <workItem from="1604653823825" duration="2520000" />
     </task>
     <servers />
   </component>
@@ -131,6 +144,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="723" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1604594957387" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1604652051994">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1604652051994" />
     <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1602480960361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -147,10 +164,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602480960361" />
-    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1604464116762">
+    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1604654933635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604464116762" />
+    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604654933635" />
     <state x="830" y="176" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604595773796">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -159,9 +176,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="297" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604592261895" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604464175201">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604655213094">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604464175201" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604655213094" />
   </component>
 </project>

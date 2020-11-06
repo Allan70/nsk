@@ -1,3 +1,7 @@
+<?php
+    @session_start();
+    include '../session_check.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,7 +70,7 @@
         <div class="content">
             <h2 class="page-title"> Add User </h2>
             
-            <form action="create.php" method="post">
+            <form action="../../app/function.php?action=register" method="post">
                 <div>
                     <label>Username</label>
                     <input type="text" name="username" class="text-input">

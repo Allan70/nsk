@@ -1,11 +1,12 @@
 <?php
+    @session_start();
 include 'database/queryBuilder.php';
 
 $ROOT= '/../';
 
 
 //login
-if(isset($_POST['login_btn']) || $_GET['action'] === 'login'){
+if($_GET['action'] === 'login'){
     if(is_null($_POST['username'])){
         dd('Please provide a username');
     }
@@ -14,8 +15,10 @@ if(isset($_POST['login_btn']) || $_GET['action'] === 'login'){
     }
     $username=$_POST['username'];
     $password=$_POST['password'];
-    $res=findColumn('users',['username'=>$username,'password'=>$password]);
-    if($res['count']>0){
+    $res=findColumn('users',['username'=>$username]);
+    $_SESSION['logged_in']=true;
+    $_SESSION['user_id']=$res['result'][0]->email;
+    if($res['count']>0 && password_verify($password,$res['result'][0]->password)){
         redirect($_SERVER['HTTP_ORIGIN'].'/single.php');
     }else{
         dd('Login unsuccessful, check your credentials and try again.');
@@ -23,7 +26,7 @@ if(isset($_POST['login_btn']) || $_GET['action'] === 'login'){
 }
 
 //register
-if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
+if($_GET['action'] === 'register'){
     if(is_null($_POST['username'])){
         dd('Username cannot be empty.');
     }
@@ -43,8 +46,11 @@ if(isset($_POST['register_btn']) || $_GET['action'] === 'register'){
     if($password!==$passwordConf){
         dd('Please ensure you have confirmed your password.');
     }
+    $password=password_hash($_POST['password'],CRYPT_BLOWFISH);
     $record=save('users',['username'=>$username,'password'=>$password,'email'=>$email]);
     if($record==1){
+        $_SESSION['logged_in']=true;
+        $_SESSION['user_id']=$email;
         redirect($_SERVER['HTTP_ORIGIN'].'/single.php');
     }else{
         dd('Registration failed.');
@@ -85,7 +91,7 @@ if($_GET['action'] === 'create-post'){
 }
 
 // create topic
-if($_GET['action']='create-topic'){
+if($_GET['action']==='create-topic'){
     $name=$_POST['title'];
     $body=$_POST['body'];
     $data=[
@@ -97,6 +103,18 @@ if($_GET['action']='create-topic'){
 
 function redirect($path){
     header('Location:'.$path);
+}
+
+// list users
+if($_GET['action']==='list-users'){
+    $users=All('users');
+    echo json_encode($users);
+    return;
+}
+
+if($_GET['action']==='list-blogs'){
+    $blogs=All('blogs');
+    echo json_encode($blogs);
 }
 
 function uploadFile($file,$filename=null,$path=null){

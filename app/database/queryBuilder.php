@@ -239,11 +239,3 @@
             dd($e->getMessage());
         }
     }
-
-
-    $data = [
-        'admin' => 1,
-        'username' => 'Abere',
-        'email' => 'aabere700@gnmail.com',
-        'password' => 'allan'
-    ];
