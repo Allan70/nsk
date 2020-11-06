@@ -112,9 +112,16 @@ if($_GET['action']==='list-users'){
     return;
 }
 
+//list posts
 if($_GET['action']==='list-blogs'){
     $blogs=All('blogs');
     echo json_encode($blogs);
+}
+
+//list topics
+if($_GET['action']==='list-topics'){
+    $topic=All('topic');
+    echo json_encode($topic);
 }
 
 function uploadFile($file,$filename=null,$path=null){

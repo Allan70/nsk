@@ -38,7 +38,7 @@
       <li>
         <a href="#"><i class="fa fa-user"></i>
             Crazy Cow   
-          <i class="fa fa-chevron-down" script="font-size: .8em"></i>
+          <i class="fa fa-chevron-down" style="font-size: .8em"></i>
         </a>
         <ul>
           <li><a href="#" class="logout">Logout</a></li>
@@ -76,17 +76,9 @@
                     <th>Author</th>
                     <th colspan="3">Action</th>
                 </thead>
-                <tbody>
+                <tbody id="posts_table">
                     <tr>
                         <td>1</td>
-                        <td>This is the first Post</td>
-                        <td>Allan Abere</td>
-                        <td><a href="#" class="edit">edit</a></td>
-                        <td><a href="#" class="delete">delete</a></td>
-                        <td><a href="#" class="publish">publish</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
                         <td>This is the first Post</td>
                         <td>Allan Abere</td>
                         <td><a href="#" class="edit">edit</a></td>
@@ -99,18 +91,11 @@
         </div>
       
     </div>
-
-    <!--Admin Contet-->
-
-
     </div>
 <!--Admin Page wrapper-->
 
-
-
-
   <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Custom Script-->
   <script src="../../assets/js/app.js"></script>
