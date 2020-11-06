@@ -18,6 +18,26 @@
         }
     }
 
+    function orderedLatest($table,$limit=null){
+        try{
+            $connection=connect();
+            if($limit==null){
+                $limit='';
+            }else{
+                $limit='limit '.$limit;
+            }
+            $sql=sprintf(
+                'select * from %s order by id desc '.$limit,
+                $table
+            );
+            $sql = $connection->prepare($sql);
+            $sql->execute();
+            return $sql->fetchAll(PDO::FETCH_CLASS);
+        }catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
+
     function AllColumns($table, $parameters)
     {
         try {

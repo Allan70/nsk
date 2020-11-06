@@ -118,6 +118,11 @@ if($_GET['action']==='list-blogs'){
     echo json_encode($blogs);
 }
 
+if($_GET['action']==='list-posts-latest'){
+    $res=orderedLatest('posts');
+    echo json_encode($res);
+}
+
 //list topics
 if($_GET['action']==='list-topics'){
     $topic=All('topic');
@@ -128,7 +133,7 @@ function uploadFile($file,$filename=null,$path=null){
     global $ROOT;
     $ROOT=__DIR__.'/../';
     if(is_null($path)){
-        $path=$ROOT.readIni()['UPLOADS_PATH'];
+        $path='../uploads/';
     }
     if(is_null($filename)){
         $filename=$file['name'];

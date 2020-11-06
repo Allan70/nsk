@@ -340,14 +340,20 @@
    
    
   <!--Slick Carousell-->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
 
  <!--Video Js JavascriptCDN-->
-    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+<!--    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>-->
   <!--Video Js JavascriptCDN-->
 
    <!-- Custom Script-->
-   <script src="assets/js/scripts.js"></script>
+<!--    <script src="assets/js/scripts.js"></script>-->
+    <script src="assets/js/app.js"></script>
+    <script>
+        $(document).ready(function(){
+            Blog.latest();
+        });
+    </script>
 
 </body>
 </html>
