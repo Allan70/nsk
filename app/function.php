@@ -51,7 +51,7 @@ if($_GET['action'] === 'register'){
     if($record==1){
         $_SESSION['logged_in']=true;
         $_SESSION['user_id']=$email;
-        redirect($_SERVER['HTTP_ORIGIN'].'/single.php');
+        redirect($_SERVER['HTTP_ORIGIN'].'/admin/posts/index.php');
     }else{
         dd('Registration failed.');
     }
@@ -64,6 +64,8 @@ if($_GET['action'] === 'create-post'){
     $image=$_FILES['image'];
     $video=$_FILES['video'];
     $topic=$_POST['topic'];
+    $author=$_SESSION['user_id'];
+//    dd($_POST);
     if(is_null($title)){
         dd('Title cannot be empty.');
     }
@@ -83,7 +85,8 @@ if($_GET['action'] === 'create-post'){
         'topic'=>$topic,
         'body'=>$body,
         'image'=>$image,
-        'video'=>$video
+        'video'=>$video,
+        'author'=>$author
     ];
     if(save('posts',$data)==1){
         dd('Post created successfully');

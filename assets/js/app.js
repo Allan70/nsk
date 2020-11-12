@@ -43,13 +43,13 @@ Blog={
                 }
                 rows+=`<div class="front-page">
                       <div class="front-title">
-                        <h1><a href="single.html">`+v.title+`</a></h1>
+                        <h1><a href="single.php?action=view_post&post=`+v.id+`">`+v.title+`</a></h1>
                       </div>
                       <div class="author-title">
                         <h3 class="category-front"> <a href="#"> `+v.topic+` |<span> By </span> <span class="author-front">`+v.author+`</span></a></h3>
                       </div>
                       <div class="main-image">
-                        <a href="single.html">`+image+`</a>
+                        <a href="single.php?action=view_post&post=`+v.id+`">`+image+`</a>
                       </div>
                     </div>
                 `;
@@ -71,13 +71,13 @@ Blog={
                 }
                 rows+=`<div class="front-page">
                       <div class="front-title">
-                        <h1><a href="single.html">`+v.title+`</a></h1>
+                        <h1><a href="single.php?action=view_post&post=`+v.id+`">`+v.title+`</a></h1>
                       </div>
                       <div class="author-title">
                         <h3 class="category-front"> <a href="#"> `+v.topic+` |<span> By </span> <span class="author-front">`+v.author+`</span></a></h3>
                       </div>
                       <div class="main-image">
-                        <a href="single.html">`+image+`</a>
+                        <a href="single.php?action=view_post&post=`+v.id+`">`+image+`</a>
                       </div>
                     </div>
                 `;

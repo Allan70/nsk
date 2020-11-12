@@ -89,7 +89,7 @@
             );
             $statement = $connection->prepare($statement);
             $statement->execute();
-            return $statement->fetch(PDO::FETCH_CLASS);
+            return $statement->fetch(PDO::FETCH_OBJ);
         } catch (Exception $e) {
             ##handle exceptions here
             return $e->getMessage();
