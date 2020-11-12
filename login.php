@@ -46,7 +46,7 @@
         
         <div><button type="submit" name="login-btn" class="btn btn-big">Login</button></div>
 
-        <p>Don't have an account? <a href="<?php echo BASE_URL . '/register.php'?>">Register/Sign Up</a></p>
+        <p>Don't have an account? <a href="register.php">Register/Sign Up</a></p>
     </form>
 
   </div>

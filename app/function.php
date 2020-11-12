@@ -123,6 +123,11 @@ if($_GET['action']==='list-posts-latest'){
     echo json_encode($res);
 }
 
+if($_GET['action']==='list-posts-topic' && isset($_GET['topic'])){
+    $res=orderedLatestWhere('posts','topic="'.$_GET['topic'].'"');
+    echo json_encode($res);
+}
+
 //list topics
 if($_GET['action']==='list-topics'){
     $topic=All('topic');

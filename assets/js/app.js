@@ -55,9 +55,36 @@ Blog={
             });
             $('.main-content').html(rows);
         });
+    },
+    navigate:function (topic){
+        RestCalls(path+'/app/function.php?action=list-posts-topic&topic='+topic,function(data){alert('An error occurred getting posts.')},function(data){
+            let rows='';
+            data=JSON.parse(data);
+            $.each(data,function(k,v){
+                let image='';
+                if(v.image!==null || v.image!==''){
+                    image=`<img src="`+v.image+`" alt="picture being displayed" class="front-image">`;
+                }
+                rows+=`<div class="front-page">
+                      <div class="front-title">
+                        <h1><a href="single.html">`+v.title+`</a></h1>
+                      </div>
+                      <div class="author-title">
+                        <h3 class="category-front"> <a href="#"> `+v.topic+` |<span> By </span> <span class="author-front">`+v.author+`</span></a></h3>
+                      </div>
+                      <div class="main-image">
+                        <a href="single.html">`+image+`</a>
+                      </div>
+                    </div>
+                `;
+            });
+            if(rows==''){
+                rows='<h1 style="margin-top:3em;">No posts found in this category.</h1>'
+            }
+            $('.main-content').html(rows);
+        });
     }
 }
-
 
 Users={
     list:function(){

@@ -5,12 +5,12 @@
     
      <i class="fa fa-bars  menu-toggle"></i>
 <ul class="nav">
-      <li><a href="#">Politics</a></li>
-      <li><a href="#">Business</a></li>
-      <li><a href="#">Entertainment</a></li>
-      <li><a href="#">Life and Style</a></li>
-      <li><a href="#">Sports</a></li>
-      <li><a href="#">Technology</a></li>
+      <li><a href="#" onclick="Blog.navigate('politics')" id="politics">Politics</a></li>
+      <li><a href="#" onclick="Blog.navigate('business')" id="business">Business</a></li>
+      <li><a href="#" onclick="Blog.navigate('entertainment')" id="entertainment">Entertainment</a></li>
+      <li><a href="#" onclick="Blog.navigate('life-and-style')" id="life-and-style">Life and Style</a></li>
+      <li><a href="#" onclick="Blog.navigate('sports')" id="sports">Sports</a></li>
+      <li><a href="#" onclick="Blog.navigate('technology')" id="technology">Technology</a></li>
       <li><a href="#">About</a>
         <ul>
         <li><a href="#">Advertise with us</a></li>   
@@ -19,17 +19,22 @@
       </li>
  <!-- <li><a href="#">Sign up</a></li>
       <li><a href="#">Log in</a></li>-->
-      <li>
-        <a href="#">
-       
-          <i class="fa fa-user"></i>
-          Crazy Cow   
-          <i class="fa fa-chevron-down" script="font-size: .8em"></i></a>
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#" class="logout">Logout</a></li>
-        </ul>
-      </li>
+    <?php
+        if(isset($_SESSION['logged_in'])){
+            echo '
+                    <li>
+                    <a href="#">
+                      <i class="fa fa-user"></i>
+                      Crazy Cow
+                      <i class="fa fa-chevron-down" style="font-size: .8em"></i></a>
+                    <ul>
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#" class="logout">Logout</a></li>
+                    </ul>
+                  </li>
+                ';
+        }
+    ?>
     </ul>
     <div class="social-nav">
       <ul>

@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="" />
+    <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/queryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database/queryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +89,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="MARIADB.CreateComplete" value="CreateOrReplace=1, CreateIfNotExists=1" />
+      </map>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +113,11 @@
       <workItem from="1604513026784" duration="1486000" />
       <workItem from="1604551730554" duration="8705000" />
       <workItem from="1604651969152" duration="75000" />
-      <workItem from="1604653823825" duration="7949000" />
+      <workItem from="1604653823825" duration="8804000" />
+      <workItem from="1604728133614" duration="31000" />
+      <workItem from="1605017494189" duration="648000" />
+      <workItem from="1605084847532" duration="13000" />
+      <workItem from="1605196211636" duration="2482000" />
     </task>
     <servers />
   </component>
@@ -155,17 +176,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604654933635" />
-    <state x="830" y="176" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604595773796">
+    <state x="479" y="242" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604682124665">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="830" y="176" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604595773796" />
+    <state x="479" y="242" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604682124665" />
     <state x="785" y="297" key="refactoring.ChangeSignatureDialog" timestamp="1604592261895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="297" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604592261895" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604655213094">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605196386452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604655213094" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605196386452" />
   </component>
 </project>

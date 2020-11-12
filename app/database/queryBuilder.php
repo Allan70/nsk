@@ -38,6 +38,27 @@
         }
     }
 
+    function orderedLatestWhere($table,$condition,$limit=null){
+        try{
+            $connection=connect();
+            if($limit==null){
+                $limit='';
+            }else{
+                $limit='limit '.$limit;
+            }
+            $sql=sprintf(
+                'select * from %s where %s order by id desc '.$limit,
+                $table,
+                $condition
+            );
+            $sql = $connection->prepare($sql);
+            $sql->execute();
+            return $sql->fetchAll(PDO::FETCH_CLASS);
+        }catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
+
     function AllColumns($table, $parameters)
     {
         try {
