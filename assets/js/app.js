@@ -1,4 +1,5 @@
 let path=window.location.origin;
+let current_page='';
 
 Blog={
     list:function(){
@@ -57,6 +58,9 @@ Blog={
         });
     },
     navigate:function (topic){
+        $('.nav').find('li a.nav-item').each(function(l,v){
+            $(v).removeClass('active');
+        });
         RestCalls(path+'/app/function.php?action=list-posts-topic&topic='+topic,function(data){alert('An error occurred getting posts.')},function(data){
             let rows='';
             data=JSON.parse(data);
@@ -81,6 +85,7 @@ Blog={
             if(rows==''){
                 rows='<h1 style="margin-top:3em;">No posts found in this category.</h1>'
             }
+            $('#'+topic).addClass('active');
             $('.main-content').html(rows);
         });
     }

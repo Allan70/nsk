@@ -1,16 +1,16 @@
 <header class="sticky">
     <div class="logo">
-      <h1 class="logo-text"><a href="<?php echo BASE_URL . '/index.php'?>"><span>Ni</span>sokoni</a></h1>
+      <h1 class="logo-text"><a href="index.php"><span>Ni</span>sokoni</a></h1>
     </div>
     
      <i class="fa fa-bars  menu-toggle"></i>
 <ul class="nav">
-      <li><a href="#" onclick="Blog.navigate('politics')" id="politics">Politics</a></li>
-      <li><a href="#" onclick="Blog.navigate('business')" id="business">Business</a></li>
-      <li><a href="#" onclick="Blog.navigate('entertainment')" id="entertainment">Entertainment</a></li>
-      <li><a href="#" onclick="Blog.navigate('life-and-style')" id="life-and-style">Life and Style</a></li>
-      <li><a href="#" onclick="Blog.navigate('sports')" id="sports">Sports</a></li>
-      <li><a href="#" onclick="Blog.navigate('technology')" id="technology">Technology</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('politics')" id="politics">Politics</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('business')" id="business">Business</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('entertainment')" id="entertainment">Entertainment</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('life-and-style')" id="life-and-style">Life and Style</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('sports')" id="sports">Sports</a></li>
+      <li><a href="#" class="nav-item" onclick="Blog.navigate('technology')" id="technology">Technology</a></li>
       <li><a href="#">About</a>
         <ul>
         <li><a href="#">Advertise with us</a></li>   
