@@ -19,7 +19,7 @@ if($_GET['action'] === 'login'){
     $_SESSION['logged_in']=true;
     $_SESSION['user_id']=$res['result'][0]->email;
     if($res['count']>0 && password_verify($password,$res['result'][0]->password)){
-        redirect($_SERVER['HTTP_ORIGIN'].'/single.php');
+        redirect($_SERVER['HTTP_ORIGIN'].'/admin/posts/index.php');
     }else{
         dd('Login unsuccessful, check your credentials and try again.');
     }
