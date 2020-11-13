@@ -20,11 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/uploads/124708031_4613754418697855_3233613315411683801_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/25fff054570551f18647182f56fb8b5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/Alan Jackson - The Older I Get_137-poster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/e0cdc8c4df138408c8e8e3aaaa3dd68f.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nsk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nsk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +56,12 @@
     <property name="last_opened_file_path" value="I:/PROJECTS/WORK/inuka/payroll_system" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\isaac\PhpstormProjects\nsk\assets\css" />
+      <recent name="C:\Users\isaac\PhpstormProjects\nsk\assets" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.queryBuilder.php">
     <configuration name="connect.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/database/connect.php">
@@ -115,7 +116,7 @@
       <workItem from="1605017494189" duration="648000" />
       <workItem from="1605084847532" duration="13000" />
       <workItem from="1605196211636" duration="5446000" />
-      <workItem from="1605285422888" duration="427000" />
+      <workItem from="1605285422888" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <created>1605201518763</created>
