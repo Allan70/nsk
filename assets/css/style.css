@@ -126,7 +126,7 @@ header.sticky {
         top: 0;
         position: fixed;
         top: 0;
-        width: 100%; 
+        width: 80%; 
         z-index: 99999; 
     }
 
