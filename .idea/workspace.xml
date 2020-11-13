@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="">
+    <list default="true" id="088f7e26-ba7c-449a-bae1-5492b7bd8a7b" name="Default Changelist" comment="Fixes">
+      <change afterPath="$PROJECT_DIR$/uploads/124708031_4613754418697855_3233613315411683801_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/25fff054570551f18647182f56fb8b5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Alan Jackson - The Older I Get_137-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/e0cdc8c4df138408c8e8e3aaaa3dd68f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nsk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nsk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +114,17 @@
       <workItem from="1604728133614" duration="31000" />
       <workItem from="1605017494189" duration="648000" />
       <workItem from="1605084847532" duration="13000" />
-      <workItem from="1605196211636" duration="3095000" />
+      <workItem from="1605196211636" duration="5446000" />
+      <workItem from="1605285422888" duration="427000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixes">
+      <created>1605201518763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605201518763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +144,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="199" key="#CLI_Interpreters" timestamp="1602444666050">
@@ -170,6 +184,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604654933635" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605201521618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605201521618" />
     <state x="479" y="242" width="428" height="698" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604682124665">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -178,9 +196,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="297" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604592261895" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605196386452">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605200356604">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605196386452" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605200356604" />
   </component>
 </project>
