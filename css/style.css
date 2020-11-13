@@ -393,6 +393,19 @@ header ul li ul li .logout:hover{
 }                                                                               /*<-------------------------------------*/
 /*Front Page*/
 
+/*Search Bar*/
+div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        position: fixed;
+        width: 20%; 
+        float: right;  
+        margin-top:20px;
+        margin-left:66%;
+    }
+/*Search Bar*/
+
 
 
 /*Main Posts*/
@@ -1171,6 +1184,10 @@ header ul li ul li .logout:hover{
 @media only screen and (max-width: 730px){
     .main-content-wrapper{                      /*----Main content Wrapper------*/
         padding: 10px;
+    }
+  
+  div.sticky {
+        display:flex;
     }
     .content .main-content.single{
         background: white;
